@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 0;
+  padding-top: 80px;
+}
+
+hr {
+  border-top: 1px solid;
+  width: 80%;
+
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #CBF1F5;
+
+}
+
+.middle-container {
+padding-top: 10px;
+
+}
+
+.coaching {
+  height: 300px;
+}
+
+.laptop {
+  height: 300px;
+}
+
+.mail-send {
+  height: 300px;
+}
+
+.table {
+  position: static;
+  margin: 0 auto 0
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
