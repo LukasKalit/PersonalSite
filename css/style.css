@@ -1,55 +1,119 @@
 body {
+  color: #40514E;
   text-align: center;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  font-family: serif;
 }
 
 h1 {
+  color: #66BFBF;
   font-family: 'Dancing Script', cursive;
-  margin-top: 0;
-  padding-top: 80px;
+  font-size: 5rem;
+  margin: 50px auto 50px auto;
 }
 
-hr {
-  border-top: 1px solid;
-  width: 80%;
+h2 {
+  color: #66BFBF;
+  font-family: Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999E;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
 
+}
+hr {
+  background: none;
+  border: dotted #EAF6F6 5px;
+  border-bottom: none;
+  width: 30%;
+  clear: left;
+
+}
+
+table {
+  border: 1px solid black;
+}
+
+p {
+    line-height: 2;
+    align-items: center;
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+}
+
+.left-align {
+  width: 100%;
+  text-align: left;
 }
 
 .top-container {
   position: relative;
   padding-top: 100px;
-  background-color: #CBF1F5;
+  background-color: #EAF6F6;
 
 }
 
-.middle-container {
-padding-top: 10px;
+.introduce {
+margin: 50px auto auto;
+width: 50%;
+}
+
+.education {
+  margin: 50px auto auto;
+  width: 50%;
+}
+
+.skills {
+  margin: 50px auto auto;
+  width: 50%;
+}
+
+.contact {
+  margin: 50px auto auto;
+  width: 50%;
+}
+
+.anchors {
+  background-color: #66BFBF
 
 }
 
 .coaching {
-  height: 300px;
+  width: 33%;
+  float: left;
+  padding-right: 30px;
 }
 
 .laptop {
-  height: 300px;
+  width: 33%;
+  float: right;
+  padding-left: 30px;
 }
 
 .mail-send {
-  height: 300px;
+  width: 33%;
+  float: left;
+  padding-right: 30px;
 }
 
 .table {
+
   position: static;
-  margin: 0 auto 0
+  margin: 50px auto 50px
 
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 100px;
+  top: 60px;
 
 }
 
@@ -57,4 +121,36 @@ padding-top: 10px;
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-weight:  bold;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: white;
+}
+
+.anchor {
+  display: inline-block;
+  margin: 25px 25px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 0 0 40px 0;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
